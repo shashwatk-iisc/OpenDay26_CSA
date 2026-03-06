@@ -41,7 +41,7 @@ AutoROM --accept-license
 Example run:
 
 ```bash
-python play_breakout.py
+python at_breakout.py
 ```
 
 ---
