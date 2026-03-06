@@ -6,8 +6,8 @@ dependencies:
   - pip
   - numpy
   - pip:
-      - gymnasium>=0.27,<1.0
-      - gymnasium[atari,accept-rom-license]
-      - ale-py
+      - "gymnasium>=0.27,<1.0"
+      - "gymnasium[atari,accept-rom-license]"
       - pygame
-      - autorom[accept-rom-license]
+      - matplotlib
+      - "autorom[accept-rom-license]"
