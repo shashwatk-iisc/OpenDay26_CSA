@@ -1,0 +1,12 @@
+name: gym-atari-play
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pip:
+      - gymnasium[atari,accept-rom-license]
+      - ale-py
+      - pygame
+      - autorom[accept-rom-license]
